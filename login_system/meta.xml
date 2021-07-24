@@ -1,0 +1,20 @@
+<meta>
+	<script src="c.luac" type="client" cache="false"/>
+	<script src="s.luac" type="server"/>
+	<file src="select.png"/>
+	<file src="user.png"/>
+	<file src="add.png"/>
+	<file src="tlo.png"/>
+	<file src="podpis.png"/>
+	<file src="tlor.png"/>
+	<file src="bg.png"/>
+	<file src="edit.png"/>
+	<file src="line.png"/>
+	<file src="user2.png"/>
+	<file src="pass.png"/>
+	<file src="button_z.png"/>
+	<file src="button_r.png"/>
+	<file src="button_c.png"/>
+	<file src="button_mouse.png"/>
+	<file src="font.ttf"/>
+</meta>
