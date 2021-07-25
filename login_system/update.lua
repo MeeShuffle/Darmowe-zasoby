@@ -101,8 +101,6 @@ function checkVersion()
                 if data~=content then
                     print("Dostępna jest nowsza wersja panelu logowania by Shuffle ("..data.."). Obecna wersja ("..content..").")
                     print("Wpisz /updatelogin aby pobrać aktualizację")
-                else
-                    print("Posiadasz aktualną wersję")
                 end
             end
         end
