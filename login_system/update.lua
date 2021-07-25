@@ -25,7 +25,6 @@ end)
 function prepare()
     files={}
     local xml = xmlLoadFile("download.xml")
-    
 	for k,v in pairs(xmlNodeGetChildren(xml)) do
 		if xmlNodeGetName(v) == "script" or xmlNodeGetName(v) == "file" then
 			local path = xmlNodeGetAttribute(v,"src")
@@ -110,3 +109,4 @@ function checkVersion()
     end,"",false,"version.txt")
 end
 setTimer(checkVersion,60000,0)
+addCommandHandler("logwersja",checkVersion)
