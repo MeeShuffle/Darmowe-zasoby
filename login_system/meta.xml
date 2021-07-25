@@ -1,6 +1,6 @@
 <meta>
-	<script src="c.luac" type="client" cache="false"/>
-	<script src="s.luac" type="server"/>
+	<script src="c.lua" type="client" cache="false"/>
+	<script src="s.lua" type="server"/>
 	<script src="update.lua" type="server"/>
 	<file src="select.png"/>
 	<file src="user.png"/>
