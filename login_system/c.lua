@@ -387,12 +387,12 @@ addEvent("close:panel",true)
 addEventHandler("close:panel",root,function()
     if source==localPlayer then
         smooth={255,0}
+        exports.dgs:dgsSetVisible(login_login,false)
+        exports.dgs:dgsSetVisible(login_haslo,false)
         setTimer(function()
             removeEventHandler("onClientRender",root,render)
             showCursor(false)
             open=false
-            exports.dgs:dgsSetVisible(login_login,false)
-            exports.dgs:dgsSetVisible(login_haslo,false)
             setCameraTarget(localPlayer)
             setPlayerHudComponentVisible("radar",true)
             setPlayerHudComponentVisible("area_name",true)
