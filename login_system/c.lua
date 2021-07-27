@@ -70,6 +70,7 @@ addEventHandler("open:login",root,function(tabela)
         showCursor(true)
         rank=tabela
         addEventHandler("onClientRender",root,render)
+        sound=playSound("sound.mp3",true)
     end
 end)
 
@@ -396,6 +397,7 @@ addEventHandler("close:panel",root,function()
             setCameraTarget(localPlayer)
             setPlayerHudComponentVisible("radar",true)
             setPlayerHudComponentVisible("area_name",true)
+            stopSound(sound)
         end,900,1)
     end
 end)
