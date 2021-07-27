@@ -54,25 +54,7 @@ p={
 }
 
 
---[[p={
-    ["s1"]={skaluj(695, 111, 210, 200)},
-    ["s2"]={skaluj(1020, 111, 210, 200)},
-    ["img1"]={skaluj(751, 157, 99, 99)},
-    ["img2"]={skaluj(1075, 157, 99, 99)},
-    ["txt"]={skaluj(696, 266, 903, 293)},
-    ["txt2"]={skaluj(1022, 266, 1229, 293)},
-    ["img3"]={skaluj(629, 514, 662, 266)},
-    ["rec_login"]={skaluj(694, 560, 532, 32)},
-    ["rec_haslo"]={skaluj(694, 635, 532, 32)},
-    ["img4"]={skaluj(703, 563, 25, 25)},
-    ["img5"]={skaluj(703, 638, 25, 25)},
-    ["b_zaloguj"]={skaluj(771, 697, 138, 43)},
-    ["b_close"]={skaluj(1020, 697, 138, 43)},
-    ["tlo"]={skaluj(0,0,1920,1080)},
-    ["line"]={skaluj(206, 928, 1509, 2)},
-    ["podpis"]={skaluj(1483, 10, 1910, 53)},
-}
-]]--
+
 
 
 
@@ -200,7 +182,6 @@ render=function()
             end)
         end
         dxDrawRectangle(p["tlo"][1],p["tlo"][2],p["tlo"][3],p["tlo"][4],tocolor(0,0,0,150),false)
-        --dxDrawImage(p["tlo"][1],p["tlo"][2],p["tlo"][3],p["tlo"][4], "window.png", 0, 0, 0, tocolor(255, 255, 255, 10), false)
         dxDrawText("Stworzone przez Shuffle - wersja demo v"..(ver or "").."\nDiscord - Shuffle#1234", p["podpis"][1],p["podpis"][2],p["podpis"][3],p["podpis"][4], tocolor(255, 255, 255, 255), 1.00, font2, "right", "center", false, false, false, false, false)
         dxDrawImage(p["line"][1],p["line"][2],p["line"][3],p["line"][4], "line.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
         dxDrawImage(p["s1"][1],p["s1"][2],p["s1"][3],p["s1"][4], "select.png", 0, 0, 0, tocolor(255, 255, 255, 200), false)
