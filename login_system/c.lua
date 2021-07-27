@@ -12,6 +12,8 @@ fileClose(file)
 for i=1,3 do
     zones[i]=0
 end
+setPlayerHudComponentVisible("radar",false)
+setPlayerHudComponentVisible("area_name",false)
 
 local function skaluj(x,y,w,h)
     x=(x/1920)*s.x
@@ -411,6 +413,8 @@ addEventHandler("close:panel",root,function()
             exports.dgs:dgsSetVisible(login_login,false)
             exports.dgs:dgsSetVisible(login_haslo,false)
             setCameraTarget(localPlayer)
+            setPlayerHudComponentVisible("radar",true)
+            setPlayerHudComponentVisible("area_name",true)
         end,900,1)
     end
 end)

@@ -4,12 +4,13 @@ addEvent("open:login",true)
 addEventHandler("open:login",root,function()
     local q=dbQuery(db,"SELECT * FROM Konta")
     local w=dbPoll(q,-1)
-    tabela={}
+    local tabela={}
     for _,v in ipairs(w)do
         table.insert(tabela,v)
     end
     table.sort(tabela, function(a, b) return a.Czas > b.Czas end )
     triggerClientEvent("open:login",source,tabela)
+    tabela=nil
 end)
 
 
