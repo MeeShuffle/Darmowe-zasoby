@@ -183,7 +183,7 @@ render=function()
             end)
         end
         dxDrawRectangle(p["tlo"][1],p["tlo"][2],p["tlo"][3],p["tlo"][4],tocolor(0,0,0,150),false)
-        dxDrawText("Stworzone przez Shuffle - wersja demo v"..(ver or "").."\nDiscord - Shuffle#1234", p["podpis"][1],p["podpis"][2],p["podpis"][3],p["podpis"][4], tocolor(255, 255, 255, 255), 1.00, font2, "right", "center", false, false, false, false, false)
+        dxDrawText("Stworzone przez sirphantasm - wersja demo v"..(ver or "").."\nDiscord - sirphantasm#1234", p["podpis"][1],p["podpis"][2],p["podpis"][3],p["podpis"][4], tocolor(255, 255, 255, 255), 1.00, font2, "right", "center", false, false, false, false, false)
         dxDrawImage(p["line"][1],p["line"][2],p["line"][3],p["line"][4], "line.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
         dxDrawImage(p["s1"][1],p["s1"][2],p["s1"][3],p["s1"][4], "select.png", 0, 0, 0, tocolor(255, 255, 255, 200), false)
         dxDrawImage(p["s2"][1],p["s2"][2],p["s2"][3],p["s2"][4], "select.png", 0, 0, 0, tocolor(255, 255, 255, 200), false)
