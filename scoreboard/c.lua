@@ -150,10 +150,6 @@ addEventHandler("onClientKey",root,function(key,state)
 				local frakcja=getElementData(v,"frakcja") or "---"
 				table.insert(score["players"],{id=id,name=getPlayerName(v),element=v,org=org,fra=frakcja})
 			end
-			table.insert(score["players"],{id=2,name="Przykładowy gracz",element=localPlayer,org="Organizacja graczy zjednoczonych",fra="---"})
-			table.insert(score["players"],{id=3,name="Rick",element=localPlayer,org="Programiści specjaliści",fra="SAPD"})
-			table.insert(score["players"],{id=4,name="Kolega",element=localPlayer,org="---",fra="SAMC"})
-			table.insert(score["players"],{id=5,name="Teściowa",element=localPlayer,org="Zło, katorga, krew, morderstwa, zabójstwa i inne fajne",fra="---"})
 			table.sort(score["players"], function(a, b) return a.id < b.id end )
 			setElementData(localPlayer,"blur",true)
 			addEventHandler("onClientRender",root,score.render)
