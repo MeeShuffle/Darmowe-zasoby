@@ -1,2 +1,2 @@
-# Panel logowania
-Obserwuj na bieżąco debugscript 3 - pojawiać się tam będą komunikaty o aktualizacji zasobu - /updatelogin
+# SCOREBOARD
+https://gtao.pl/skrypt-scoreboard-vt140528.htm#861750
