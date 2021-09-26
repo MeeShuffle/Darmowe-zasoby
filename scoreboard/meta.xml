@@ -1,0 +1,14 @@
+<meta>
+	<script src="useful.luac" type="client" cache="false"/>
+	<script src="c.lua" type="client" cache="false"/>
+	<script src="s.lua"/>
+	<file src="img/bg.png"/>
+	<file src="img/bar.png"/>
+	<file src="img/1.png"/>
+	<file src="img/2.png"/>
+	<file src="img/3.png"/>
+	<file src="img/4.png"/>
+	<file src="img/arrow.png"/>
+	<file src="img/logo.png"/>
+	<file src="font.ttf"/>
+</meta>
